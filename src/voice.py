@@ -1,4 +1,4 @@
-# pip install gtts pydub
+# pip install gtts pygame
 # pip install PyAudio
 # pip install SpeechRecognition
 import speech_recognition as sr
