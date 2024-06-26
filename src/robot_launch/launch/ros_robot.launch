@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg='face_recognition_pkg' type='face_recognitor.py' name='facial' output='screen'></node>
+    <node pkg='voice_recognition' type='voice_updated.py' name='voicial' output='screen'></node>
+    <node pkg='tts' type='gtts_node.py' name='tts' output='screen'></node>
+
+</launch>

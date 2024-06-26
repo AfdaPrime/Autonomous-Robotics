@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/ws_catkin/devel
+
+Name: voice_recognition
+Description: Description of voice_recognition
+Version: 0.0.0
+Cflags: -I/home/vboxuser/ws_catkin/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

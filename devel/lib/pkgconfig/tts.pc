@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/ws_catkin/devel
+
+Name: tts
+Description: Description of tts
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

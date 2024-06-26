@@ -1,2 +1,2 @@
-face_recognition
+face_recognition_pkg:robot_launch:tts:voice_recognition
 -DCATKIN_DEVEL_PREFIX=/home/vboxuser/ws_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_catkin/install -G Unix Makefiles

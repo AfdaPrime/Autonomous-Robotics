@@ -28,6 +28,9 @@ def sound(mytext):
 
 # Use the microphone as the source for input
 def voice(msg):
+
+    recognizer = sr.Recognizer()
+
     sound(msg)
     with sr.Microphone() as source:
         sound("Please wait. Calibrating microphone...")
@@ -45,7 +48,7 @@ def voice(msg):
         print(f"You said: {text}")
 
     except sr.UnknownValueError:
-        print("Sorry, I could not understand the audio.")
+        text = "Sorry, I could not understand the audio."
     except sr.RequestError as e:
         print(f"Could not request results from Google Speech Recognition service; {e}")
 

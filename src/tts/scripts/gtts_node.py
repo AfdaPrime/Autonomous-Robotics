@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # install dulu nie sebelum run: 
 # pip install gtts
 # sudo apt-get install mpg123
@@ -6,7 +7,7 @@
 # sudo apt-get update
 # sudo apt-get install python-pip
 
-#!/usr/bin/env python3
+
 
 import rospy
 from gtts import gTTS
@@ -17,7 +18,7 @@ def callback(data):
     rospy.loginfo(f"Received text: {data.data}")
     mytext = data.data
     language = 'en'
-    myobj = gTTS(text=mytext, lang=language, slow=False)
+    myobj = gTTS(text=mytext+" is nearby", lang=language, slow=False)
     myobj.save("/tmp/welcome.mp3")
     os.system("mpg123 /tmp/welcome.mp3")
 
