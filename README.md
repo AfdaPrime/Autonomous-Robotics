@@ -30,7 +30,7 @@ After installing gtts, go to package.xml and add these 2 dependencies:
    
 
 ## When running:
-
+The robot will:
  1. Detect and recognize faces in real-time. 
  2. Announce familiar faces.
 
