@@ -33,24 +33,35 @@ After installing gtts, go to package.xml and add these 2 dependencies:
 
  1. Detect and recognize faces in real-time. 
  2. Announce familiar faces.
- "[The person's saved name]  is nearby"
+
+>  "[The person's saved name]  is nearby"
+
  3. When unknown face is nearby:
  Prompt user for input when an unknown face is detected.
-"Do you wish to proceed to save contact?"
+
+> "Do you wish to proceed to save contact?"
 
  4. If user answer yes; save new contacts.
- User: "What's their name?"
- Robot: "[The user provides the name to save the contact]"
- User: "Contact saved. Nice to meet you [provided name]"
+
+>  User: "What's their name?"  
+>  Robot: "[The user provides the name to
+> save the contact]"  
+> User: "Contact saved. Nice to meet you [provided
+> name]"
+
  
  5. If user answer no; identify strangers.
- "Saving contact cancelled."
+
+>  "Saving contact cancelled."
+
  
  6. Loop and continuously monitor for new faces.
 
 ## Tips when using the robot
 
  - When giving out voice command wait for the microphone to be calibrated.
- "Please wait. Calibrating microphone..."
- "Microphone calibrated."
+
+>  "Please wait. Calibrating microphone..."  
+>  "Microphone calibrated."
+
  - There may be instances where the robot is having a harder time picking up the user's audio. Just keep giving out voice commands loudly and clearly until the robot picks it up eventually.
